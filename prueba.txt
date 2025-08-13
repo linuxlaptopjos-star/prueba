@@ -6,7 +6,7 @@ git config --global user.email "tucorreo@ejemplo.com"
 
 git init
 
-git remote add origin https://github.com/TU_USUARIO/mi-proyecto.git
+git remote add origin https://github.com/linuxlaptopjos-star/prueba.git
 
 git add .
 
