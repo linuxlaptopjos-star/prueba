@@ -1,0 +1,40 @@
+git codigos:
+git --version
+git config --global user.name "Tu Nombre"
+git config --global user.email "tucorreo@ejemplo.com"
+
+
+git init
+
+git remote add origin https://github.com/TU_USUARIO/mi-proyecto.git
+
+git add .
+
+git commit -m "Subiendo mis primeros documentos"
+
+git push -u origin main
+
+
+git clone https://github.com/TU_USUARIO/mi-proyecto.git
+
+git add .
+git commit -m "Subiendo documentos"
+git push
+
+
+git stash push -m "Mis cambios de paginacion y permisos"
+
+git pull origin main
+
+git stash pop
+
+Resolver conflictos manualmente en VS Code
+# - Abrir archivos con conflictos
+# - Elegir qué cambios mantener de cada lado
+# - Guardar archivos resueltos
+
+git add .
+
+git commit -m " "
+
+git push origin main
